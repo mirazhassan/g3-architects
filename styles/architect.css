@@ -101,3 +101,29 @@ nav li a {
         flex-direction: column;
     }
 }
+
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-images-container{
+ display: grid;
+ grid-template-columns: repeat(2 ,1fr);
+ gap: 1.5rem;
+ padding: 50px;
+}
+.teams-content{
+    padding: 70px 70px;
+}
+.teams-title{
+    font-size:  2.8rem;
+}
+
+
+.teams-title .quick-list{
+    color: #727272;
+}
+.teams-title .text-features{
+    color: #FF900E;
+    font-weight:700px ;
+}
